@@ -13,7 +13,7 @@ interface IBondFixedExpiryTeller {
 }
 
 contract FakeToken {
-    function underlying() external view returns(address) {
+    function underlying() external pure returns(address) {
         return OHM;
     }
 
